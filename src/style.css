@@ -1,8 +1,23 @@
-body {
-  background-color: #ececec;
-  color:#b2bec3;
-}
+@media screen and (min-width: 40em) {
+  body {
+    background-color: #ececec;
 
-h1 {
-  color: #636e72
-}
+  }
+
+ }
+
+ @media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: grey;
+
+  }
+
+
+ }
+
+
+
+
+
+
