@@ -7,7 +7,51 @@ h1 {
   color: #468
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/** Nav **/
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 main {
   max-width: 50em;
   margin: 0 auto;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "header header"
+                       "nav nav"
+                       "article sidebar"
+                       "footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+#menu {
+  grid-area: nav;
+}
+
+article {
+  grid-area: article;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
 }
