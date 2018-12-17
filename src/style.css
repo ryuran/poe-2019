@@ -11,3 +11,24 @@ main {
   max-width: 50em;
   margin: 0 auto;
 }
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 1em;
+}
+
+/* Create two equal columns */
+.two-columns {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+
+.pl-5 {
+  padding-left: 5em;
+}
