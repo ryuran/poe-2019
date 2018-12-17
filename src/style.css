@@ -11,3 +11,18 @@ main {
   max-width: 50em;
   margin: 0 auto;
 }
+
+#menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container{
+  display: flex;
+}
+
+article, aside{
+  padding: .8em;
+  flex: 50%;
+}
