@@ -1,11 +1,14 @@
 body {
   background-color: #ffffff;
   color:#b2bec3;
+  width: 60em;
 }
 
 h1 {
   color: #636e72
 }
+
+/*Media Queries*/
 
 /** Desktop **/
 
