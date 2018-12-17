@@ -7,7 +7,40 @@ h1 {
   color: #468
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+article {
+  grid-area: article;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
 main {
   max-width: 50em;
   margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'nav nav'
+    'article aside'
+    'footer footer'
 }
