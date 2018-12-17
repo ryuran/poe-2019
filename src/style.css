@@ -26,9 +26,7 @@ li {
 main {
   max-width: 50em;
   margin: 0 auto;
-}
 
-main {
   display: grid;
   grid-template-areas: "header header"
                        "nav nav"
@@ -46,6 +44,7 @@ header {
 
 article {
   grid-area: article;
+  padding-right: 1em;
 }
 
 aside {
