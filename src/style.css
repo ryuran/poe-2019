@@ -6,3 +6,8 @@ body {
 h1 {
   color: #636e72
 }
+
+@media (prefers-color-scheme: dark) {
+  color: red;
+  background: white;
+}
