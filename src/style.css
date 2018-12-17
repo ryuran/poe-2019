@@ -1,14 +1,29 @@
+h1 {
+  color: #636e72;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color:white;
+    background-color: black;
+  }
+}
+
 body {
   background-color: white;
   color:#b2bec3;
 }
 
-h1 {
-  color: #636e72;
-}
-
 @media screen and (min-width: 40em){
   body {
     background-color: grey;
+  }
+}
+
+@media (prefers-color-scheme: dark) and (min-width: 40em){
+  body {
+    color: black;
+    background-color: white;
   }
 }
