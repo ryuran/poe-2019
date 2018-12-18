@@ -66,3 +66,13 @@ article img {
   top: 0;
   left: 0;
 }
+
+#kart {
+  width: 3em;
+}
+
+.iconsvg {
+    width: 2em;
+    height: 2em;
+    fill: #3498db;
+}
