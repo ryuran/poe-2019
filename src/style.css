@@ -66,3 +66,14 @@ article img {
   top: 0;
   left: 0;
 }
+
+/*
+* Inline SVG
+*/
+.shopping-cart {
+  width: 50px;
+}
+
+.wheel-back {
+  fill: orange;
+}
