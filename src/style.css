@@ -66,3 +66,9 @@ article img {
   top: 0;
   left: 0;
 }
+
+.icon {
+  width: 125px;
+  height: 125px;
+  background: #eee;
+}
