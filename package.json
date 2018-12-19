@@ -1,0 +1,25 @@
+{
+  "name": "poe-2019",
+  "version": "1.0.0",
+  "description": "First npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryuran/poe-2019.git"
+  },
+  "author": "Laurent Boulanger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryuran/poe-2019/issues"
+  },
+  "homepage": "https://github.com/ryuran/poe-2019#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
