@@ -1,16 +1,28 @@
 // Colors
+//
 // Every colors for this project are variables.
 //
 // Layout and UI generic colors
 //
 // Colors:
-// $color-light:      #eee - main background color
-// $color-light-grey: #ddd - nav background color
-// $color-primary:    #468 - primary color
-// $color-dark:       #222 - text color
+// $color-light:         #eee    - main background color
+// $color-light-grey:    #ddd    - nav background color
+// $color-primary:       #468    - primary color
+// $color-dark:          #222    - text color
+// $color-bg-emphase:    #eee    - emphasis color
+// $color-alert-info:    #224d66 - color alert info
+// $color-alert-success: #5a792c - color alert success
+// $color-alert-warning: #c47908 - color alert warning
+// $color-alert-error:   #b62922 - color alert error
 //
 // Styleguide: Design.Colors
 $color-light: #eee;
 $color-light-grey: #ddd;
 $color-primary: #468;
 $color-dark: #222;
+$color-bg-emphase: #eee !default;
+
+$color-alert-info: #224d66 !default;
+$color-alert-success: #5a792c !default;
+$color-alert-warning: #c47908 !default;
+$color-alert-error: #b62922 !default;
