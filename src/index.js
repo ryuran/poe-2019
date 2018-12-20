@@ -1,4 +1,4 @@
-require('./style.scss')
+require('./css/style.scss')
 console.log('Hello World')
 
 const responsiveNav = require('responsive-nav')

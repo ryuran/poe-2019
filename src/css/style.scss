@@ -1,7 +1,4 @@
-$light: #eee;
-$light-grey: #ddd;
-$primary: #468;
-$dark: #222;
+@import "./settings/colors";
 
 body {
   background-color: $light;
