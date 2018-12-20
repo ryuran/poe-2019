@@ -4,7 +4,7 @@
   "description": "Front tools (Clever Age POE)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint .",
     "start": "webpack --config webpack.config.js",
     "start:dev": "webpack-dev-server"
   },
