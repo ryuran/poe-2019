@@ -1,11 +1,11 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const path = require('path')
 
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
   plugins: [
-    new HtmlWebpackPlugin({template: './src/index.html'}),
+    new HtmlWebpackPlugin({ template: './src/index.html' }),
     new HtmlWebpackPlugin({
       filename: 'partial.html',
       template: './src/partial.html'
@@ -19,15 +19,15 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-    ],
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      }
+    ]
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-  },
-};
+    contentBase: path.join(__dirname, 'dist')
+  }
+}
