@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint .",
     "start": "webpack --config webpack.config.js",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "kss": "./node_modules/.bin/kss -c kss.json"
   },
   "repository": {
     "type": "git",

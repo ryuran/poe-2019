@@ -1,7 +1,36 @@
-@import './settings/_color.scss';
+//Design
+//
+//Rules
+//
+//Weight: 1
+//
+//Style guide: Design
+
+@import './settings/color';
+
+//ELements
+//
+//Every UI ELements
+//
+//Weight: 2
+//
+//Style guide: Elements
+
+@import './elements/btn';
+
+//Components
+//
+//Block and Components
+//
+//Weight: 3
+//
+//Style guide: Components
+
+@import './components/alert';
+
 
 body {
-  background-color: $color-light;
+  background-color: $color-bg-emphase;
   color: $color-dark;
 }
 
@@ -70,5 +99,5 @@ nav {
 .icon {
   width: 125px;
   height: 125px;
-  background: $color-light;
+  background: $color-bg-emphase;
 }
