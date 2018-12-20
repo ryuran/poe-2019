@@ -1,4 +1,29 @@
-@import './settings/_color.scss';
+// Design
+//
+// Global Design Rules
+//
+// weight: 1
+//
+// Style guide: Design
+@import './settings/color';
+
+// Elements
+//
+// Every UI Elements
+//
+// weight: 2
+//
+// Style guide: Elements
+@import './elements/btn';
+
+// Components
+//
+// Every UI Components
+//
+// weight: 3
+//
+// Style guide: Components
+@import './components/alert';
 
 body {
   background-color: $color-light;

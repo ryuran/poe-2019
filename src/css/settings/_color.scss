@@ -1,5 +1,5 @@
 // Colors
-// Every colors for this project are variables.
+// All colors
 //
 // Layout and UI generic colors
 //
@@ -10,7 +10,13 @@
 // $color-dark:       #222 - text color
 //
 // Styleguide: Design.Colors
+
 $color-light: #eee;
 $color-light-grey: #ddd;
 $color-primary: #468;
 $color-dark: #222;
+
+$color-alert-info: #3498db;
+$color-alert-success: #2ecc71;
+$color-alert-warning: #e67e22;
+$color-alert-error: #e74c3c;

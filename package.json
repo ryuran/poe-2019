@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
+    "kss": "./node_modules/.bin/kss -c kss.json ",
     "start": "webpack --config webpack.config.js",
     "start:dev": "webpack-dev-server"
   },

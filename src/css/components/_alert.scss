@@ -1,0 +1,45 @@
+// Alerts
+//
+// Message box to communicate with users.
+//
+// .alert_info     - info message
+// .alert_success  - success message
+// .alert_warning  - warning message
+// .alert_error    - error message
+//
+// Markup:
+// <div class="alert {{ modifier_class }}">
+//   <p>Alerts message with a <a href="#">link</a>.</p>
+// </div>
+//
+// Style guide: Components.Alerts
+
+$_alert-styles: (
+  info: $color-alert-info,
+  success: $color-alert-success,
+  warning: $color-alert-warning,
+  error: $color-alert-error,
+) !default;
+
+.alert {
+  padding: 0 1em;
+  overflow: hidden;
+  color: $color-text-base;
+  background-color: $color-bg-emphase;
+  border-color: 1px solid darken($color-bg-emphase, 10%);
+  border-radius: .25rem;
+
+  :link {
+    color: inherit;
+    text-decoration: underline;
+  }
+
+  @each $_alert-modifer, $_alert-color in $_alert-styles {
+    &_#{$_alert-modifer} {
+      $_alert-bg-color: lighten(desaturate($_alert-color, 10%), 45%);
+      color: darken($_alert_color, 10%);
+      background-color: $_alert-bg-color;
+      border-color: 1px solid darken($_alert-bg-color, 10%);
+    }
+  }
+}
