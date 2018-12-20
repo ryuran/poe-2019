@@ -1,4 +1,4 @@
-require('./style.scss');
+require('./css/style.scss');
 
 const responsiveNav = require('responsive-nav');
 require('responsive-nav/client/dist/styles/responsive-nav.css');
