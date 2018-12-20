@@ -4,7 +4,7 @@
   "description": "Front tools (Clever Age POE)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint .",
     "start": "webpack --config webpack.config.js",
     "start:dev": "webpack-dev-server"
   },
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/ryuran/poe-2019.git"
   },
-  "author": "Simon Escure",
+  "author": "Clever Age POE",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryuran/poe-2019/issues"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ryuran/poe-2019#readme",
   "devDependencies": {
     "css-loader": "^2.0.1",
+    "eslint": "^5.10.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
