@@ -1,10 +1,6 @@
 import '../css/style.scss'; // main CSS
 import responsiveNav from 'responsive-nav';
 import 'responsive-nav/client/dist/styles/responsive-nav.css';
-// SVG icons
-import '../svg/beaker.svg';
-import '../svg/fish.svg';
-import '../svg/user.svg';
 
 const onLoad = (fn) => {
   if (document.readyState === 'loading') {
