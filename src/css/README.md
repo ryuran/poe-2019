@@ -1,2 +1,2 @@
-# Styleguide for POE
+# Styleguide
 

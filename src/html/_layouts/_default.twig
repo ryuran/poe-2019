@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ title }}</title>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Responsive Web Design</h1>
+		</header>
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Rubrique</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+		<article>
+      {% block content %}{% endblock %}
+    </article>
+		<aside>
+      {% block aside %}{% endblock %}
+    </aside>
+		<footer>
+			<ul>
+				<li>&copy; Clever Age 2013-2015</li>
+				<li><a href="#">Conditions d’utilisation</a></li>
+				<li><a href="#">Plan du site</a></li>
+				<li><a href="#">Contact</a></li>
+      </ul>
+		</footer>
+	</main>
+</body>
+</html>
