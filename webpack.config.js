@@ -58,6 +58,24 @@ const config = {
         ],
       },
       {
+        test: /\.less$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          'less-loader',
+        ],
+      },
+      {
+        test: /\.styl$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'postcss-loader',
+          'stylus-loader',
+        ],
+      },
+      {
         test: /\.twig$/,
         use: [
           'html-loader',
@@ -142,10 +160,10 @@ config.plugins.push(new SvgSpriteHtmlWebpackPlugin({
   generateSymbolId: (svgFilePath) => {
     const svgDir = path.resolve('./src/svg');
     const pathToSubDir = path.relative(svgDir, path.dirname(svgFilePath));
-    const composed = pathToSubDir.split(path.sep);
-    composed.push(path.basename(svgFilePath));
+    const composed = pathToSubDir ? pathToSubDir.split(path.sep) : [];
+    composed.push(path.basename(svgFilePath, '.svg'));
 
-    return composed.join('-');
+    return `symbol-${composed.join('-')}`;
   },
 }));
 
